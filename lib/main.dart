@@ -1,3 +1,4 @@
+import 'dart:ffi';
 import 'dart:math';
 
 import 'package:flutter/material.dart';
@@ -38,13 +39,73 @@ class _HomePageState extends State<HomePage> {
 
   // bool fade = true;
 
-  double opacity = 1;
+  // double opacity = 1;
+  //
+  // List<Alignment> list=[
+  //   Alignment.topLeft,
+  //   Alignment.topRight,
+  //   Alignment.topCenter,
+  //   Alignment.centerLeft,
+  //   Alignment.center,
+  //   Alignment.centerRight,
+  //   Alignment.bottomLeft,
+  //   Alignment.bottomCenter,
+  //   Alignment.bottomRight
+  // ];
+  //
+  // Alignment alignment = Alignment.center;
 
+ //  double height = double.infinity;
+ //  double widht  = double.infinity;
+ //
+ // double padding = 0;
 
 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+
+      // body: InkWell(
+      //   onTap: (){
+      //     padding +=10;
+      //     setState(() {
+      //
+      //     });
+      //   },
+      //   child: AnimatedPadding(
+      //     duration: Duration(
+      //       milliseconds: 300
+      //     ),
+      //
+      //     padding: EdgeInsets.all(padding),
+      //     child: Container(
+      //       height:height ,
+      //       width: widht,
+      //       color: Colors.grey,
+      //     ),
+      //   ),
+      // ),
+
+      //
+      // body: InkWell(
+      //   onTap: (){
+      //     alignment = list[Random().nextInt(list.length)];
+      //     setState(() {
+      //
+      //     });
+      //   },
+      //   child: AnimatedAlign(
+      //     duration: Duration(
+      //       milliseconds: 500
+      //     ),
+      //     alignment: alignment,
+      //     child: Container(
+      //       height: 100,
+      //       width: 100,
+      //       color: Colors.yellow,
+      //     ),
+      //   ),
+      // ),
 
       // body: Center(
       //   child: InkWell(
